@@ -1,4 +1,10 @@
 
+document.getElementById("imag").onmouseover = function () {
+    this.src = "account_circ.png";
+};
+document.getElementById("imag").onmouseout = function () {
+    this.src = "person.png";;
+};
 document.getElementById("phoneNum").onmouseover = function () {
     this.innerText = "+966-53-775-8721";
 };
@@ -40,6 +46,57 @@ for (let i = 0; i < skillsli.length; i++) {
         this.innerText = skillsLits[i];
     };
 }
+
+
+document.getElementById("eduTitle").onmouseover = function () {
+    this.innerText = "2019-2020";
+};
+document.getElementById("eduTitle").onmouseout = function () {
+    this.innerText = "2029 - 2030";
+};
+document.getElementById("eduUn").onmouseover = function () {
+    this.innerText = "princess noura university ";
+};
+document.getElementById("eduUn").onmouseout = function () {
+    this.innerText = "Wardiere University";
+};
+let eduUl = document.getElementById('eduList')
+let eduli = eduUl.getElementsByTagName("li")
+
+eduli[0].onmouseover = function () {
+    this.innerText = "Bachelor of Information Systems";
+};
+eduli[0].onmouseout = function () {
+    this.innerHTML = "Master of Business <br /> Management";
+};
+
+document.getElementById("eduTitle2").onmouseover = function () {
+    this.innerText = "2024-2030";
+};
+document.getElementById("eduTitle2").onmouseout = function () {
+    this.innerText = "2025 - 2029";
+};
+document.getElementById("eduUn2").onmouseover = function () {
+    this.innerText = "prince sultan university ";
+};
+document.getElementById("eduUn2").onmouseout = function () {
+    this.innerText = "Wardiere University";
+};
+let eduUl2 = document.getElementById('eduList2')
+let eduli2 = eduUl2.getElementsByTagName("li")
+
+eduli2[0].onmouseover = function () {
+    this.innerText = "Bachelor of marketing";
+};
+eduli2[0].onmouseout = function () {
+    this.innerText = "Bachelor of Business";
+};
+eduli2[1].onmouseover = function () {
+    this.innerText = "test: 2.3 /3.0";
+};
+eduli2[1].onmouseout = function () {
+    this.innerText = "GPA: 3.8 / 4.0";
+};
 
 let langUl = document.getElementById('lang')
 let langli = langUl.getElementsByTagName("li")
