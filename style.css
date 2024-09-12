@@ -1,0 +1,463 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Lato-Regular_4i_1;
+}
+
+.icon {
+    width: 1.2vw;
+
+}
+
+.pageContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.first-section {
+    width: 20%;
+    margin-right: 10px;
+    background-color: #1f3750;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.second-section {
+    width: 80%;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.first-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+
+    /* border: 1px solid white; */
+    width: 80%;
+    /* height: 90%; */
+    /* height: 145vh; */
+    /* height: 150vh; */
+    height: 170vh;
+
+}
+
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 15%; */
+    height: 19%;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-image img {
+    width: 10vw;
+    height: 14vh;
+}
+
+.section-title {
+    color: white;
+    font-size: 1.6rem;
+    font-family: Now-Bold_4c_1;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 20%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    font-size: 0.9rem;
+}
+
+.contact-info div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    gap: 1vw;
+}
+
+.section-education {
+    height: 28%;
+}
+
+.education {
+    height: 60%;
+}
+
+.education h3 {
+    font-size: 1rem;
+
+}
+
+.education li {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.section-skills {
+    height: 25%;
+}
+
+.skills {
+    height: 60%;
+}
+
+
+.section-lang {
+    height: 20%;
+}
+
+.lang {
+    height: 60%;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* second-section  */
+.second-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 170vh;
+}
+
+.title-section {
+    width: 100%;
+    height: 17%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section-sub {
+    width: 90%;
+}
+
+.profile-section {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(81, 160, 56); */
+}
+
+.profile-section-sub {
+    width: 70%;
+}
+
+.work-experience-section {
+    width: 100%;
+    height: 45%;
+    /* background-color: rgb(182, 117, 179); */
+}
+
+.work-experience-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid rgb(84, 84, 84);
+    ;
+}
+
+.line-div {
+    width: 3vh;
+    height: 100%;
+    background-color: black;
+}
+
+.work-experience-section-sub {
+    width: 95%;
+}
+
+
+.experience ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience li {
+    width: 96%;
+}
+
+.experience-title-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reference-section {
+    width: 100%;
+    height: 18%;
+    /* background-color: rgb(71, 10, 26); */
+}
+
+.reference-section-sub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80%;
+
+}
+
+.reference-section-sub-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 65%;
+}
+
+.section-two-title {
+    color: rgb(22, 56, 83);
+    font-size: 1.6rem;
+    font-family: Now-Bold_4c_1;
+    width: 100%;
+    border-bottom: 2px solid rgb(22, 56, 83);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.title-section-sub h1 {
+    color: rgb(22, 56, 83);
+    font-family: Now-Regular_4g_1;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.title-section-sub h1 span {
+    color: rgb(84, 84, 84);
+    font-family: Now-Black_4e_1;
+    font-weight: 700;
+}
+
+.title-section-sub p {
+    color: rgb(84, 84, 84);
+    font-family: Now-Black_4e_1;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.underLine {
+    width: 6%;
+    border-bottom: 4px solid rgb(22, 56, 83);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-section-sub p {
+    font-family: Lato-Regular_4i_1;
+    color: rgb(84, 84, 84);
+}
+
+.experience-title-section h3 {
+    font-family: Aileron-Bold_4o_1;
+    color: rgb(84, 84, 84);
+}
+
+.experience p,
+.experience li {
+    font-family: Aileron-Regular_4m_1;
+    color: rgb(84, 84, 84);
+}
+
+.reference h3 {
+    font-family: Lato-Bold_4k_1;
+    color: rgb(84, 84, 84);
+}
+
+.reference h4 {
+    font-family: Lato-Regular_4i_1;
+    color: rgb(84, 84, 84);
+    font-size: .9rem;
+}
+
+.reference p {
+    font-family: Lato-Bold_4k_1;
+    color: rgb(84, 84, 84);
+
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    .pageContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-section {
+        width: 100%;
+        margin-right: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .first-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        height: 150vh;
+
+    }
+    .profile-image img {
+        width: 22vw;
+        height: 16vh;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .contact-info div {
+        width: calc(80%/2);
+    }
+
+    .icon {
+        width: 3vw;
+    }
+
+    /*  */
+    .section-education {
+        width: 100%;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .education div {
+        width: calc(100%/2);
+    }
+
+    /*  */
+    .section-skills {
+        width: 100%;
+    }
+
+    .skills ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skills li {
+        width: calc(100%/2);
+    } 
+    /*  */
+    .section-lang {
+        width: 100%;
+    }
+
+    .lang ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .lang li {
+        width: calc(100%/2);
+    } 
+
+    .section {
+        height: 22%;
+    }
+    .section-education {
+        height: 22%;
+    }
+    .section-skills {
+        height: 24%;
+    }
+    .section-lang {
+        height: 19%;
+    }
+    /*  */
+    .second-section {
+        width: 100%;
+        padding-right: 0px;
+        height: 100%;
+    }
+    .second-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+    }
+    .profile-section {
+        width: 100%;
+    }
+    .work-experience-section {
+        width: 100%;
+    }
+    .reference-section {
+        width: 100%;
+    }
+    .reference-section-sub-container {
+        width: 100%;
+    }
+
+
+}
