@@ -448,14 +448,20 @@ li {
     }
     .profile-section {
         width: 100%;
+        margin-left: 10px;
     }
     .work-experience-section {
         width: 100%;
+        margin-left: 10px;
     }
     .reference-section {
         width: 100%;
+        margin-left: 10px;
     }
     .reference-section-sub-container {
+        width: 100%;
+    }
+    .profile-section-sub {
         width: 100%;
     }
 
